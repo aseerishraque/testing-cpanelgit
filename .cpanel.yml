@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ishraqulhoque/demo.ishraqulhoqueclients.xyz/
+    - /bin/cp -R * $DEPLOYPATH
